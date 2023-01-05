@@ -4,6 +4,7 @@
   "description": "Demo application showing how to automatically greet a customer when a trade is started",
   "main": "app.js",
   "scripts": {
+    "start": "node app.js",
     "test": "jest"
   },
   "license": "ISC",
@@ -17,5 +18,8 @@
   "devDependencies": {
     "jest": "^27.4.3",
     "jest-mock": "^27.4.2"
+  },
+  "engines": {
+    "node":"18.12.1"
   }
 }
